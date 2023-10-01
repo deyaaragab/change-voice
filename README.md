@@ -22,11 +22,5 @@ pip install -r "project/requirements-dml.txt"
 Also, do not forget to download the necessary models. EasyGUI uses RVC 2 40k models.
 
 ```bash
-wget https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/rmvpe.pt -O ./assets/rmvpe/rmvpe.pt
-wget https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/rmvpe.onnx -O ./assets/rmvpe/rmvpe.onnx
-wget https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/hubert_base.pt -O ./assets/hubert/hubert_base.pt
-wget https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/pretrained_v2/D40k.pth -O ./assets/pretrained_v2/D40k.pth
-wget https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/pretrained_v2/G40k.pth -O ./assets/pretrained_v2/G40k.pth
-wget https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/pretrained_v2/f0D40k.pth -O ./assets/pretrained_v2/f0D40k.pth
-wget https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/pretrained_v2/f0G40k.pth -O ./assets/pretrained_v2/f0G40k.pth
+python download_files.py
 ```
