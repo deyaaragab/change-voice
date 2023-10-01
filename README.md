@@ -10,14 +10,14 @@ I recommend you use a virtual environment
 ```bash
 python -m venv RVC
 cd RVC
-git clone https://github.com/777gt/-EVC-
+git clone https://github.com/luisesantillan/project
 Scripts/activate.bat
 pip install torch torchvision torchaudio
-pip install -r "-EVC-/requirements.txt"
+pip install -r "project/requirements.txt"
 ```
 If you're on Windows, like me, and don't have an NVIDA graphics card, install the requirements from a different .txt:
 ```bash
-pip install -r "-EVC-/requirements-dml.txt"
+pip install -r "project/requirements-dml.txt"
 ```
 Also, do not forget to download the necessary models. EasyGUI uses RVC 2 40k models.
 
